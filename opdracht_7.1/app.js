@@ -1,7 +1,6 @@
-let budget = 100
+let bedrag = prompt("Wat kost het product dat u wilt kopen?", "50");  
 let product = 60
-
-if (budget > product) {
+if (bedrag > product) {
     document.getElementById("uitkomst").style.color = "green"
     document.getElementById("uitkomst").innerHTML = "U heeft genoeg geld!"
 } else {
